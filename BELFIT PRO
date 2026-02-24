@@ -86,3 +86,17 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELFIT</title>
+</head>
+<body>
+    <h1>Welcome to BELFIT</h1>
+    <img src="images/logo.png" alt="BELFIT Logo">
+    <img src="images/some-image.png" alt="Some Image">
+    <p>Enjoy the benefits of our fitness program!</p>
+</body>
+</html>
