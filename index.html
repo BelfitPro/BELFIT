@@ -9,11 +9,14 @@
         body { font-family: 'Segoe UI', sans-serif; margin: 0; color: var(--secondary); line-height: 1.6; }
         header { background: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
         header nav { display: flex; gap: 1rem;}
+        
+        /* FIXED HERO IMAGE LINK */
         .hero { 
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('me-training.jpg'); 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('123_1 (12).JPEG'); 
             background-size: cover; background-position: center;
             padding: 120px 5%; text-align: center; color: white;
         }
+
         .btn { background: var(--primary); color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; font-weight: bold; transition: 0.3s; }
         .btn:hover { opacity: 0.9; transform: scale(1.05); }
         .btn-instagram { display: inline-flex; align-items: center; background: #e4405f; }
@@ -29,7 +32,6 @@
         .contact button { background: var(--primary); color: white; border: none; padding: 12px 25px; border-radius: 25px; font-weight: bold; cursor: pointer; transition: 0.3s; }
         .contact button:hover { opacity: 0.9; }
         footer { background: var(--accent); text-align: center; padding: 20px 0; color: #999; font-size: 1rem; }
-        .footer-social { margin-top: 10px; }
     </style>
 </head>
 <body>
@@ -39,14 +41,13 @@
     <nav>
       <a href="#contact" class="btn">Work With Me</a>
       <a href="https://instagram.com/belfit77" class="btn btn-instagram" target="_blank" rel="noopener">
-        <!-- Instagram icon (SVG) -->
         <svg width="20" height="20" viewBox="0 0 24 24" style="margin-right:6px"><path fill="white" d="M7.75 2C5.6786 2 4 3.6786 4 5.75v12.5C4 18.3214 5.6786 20 7.75 20h8.5C18.3214 20 20 18.3214 20 16.25V5.75C20 3.6786 18.3214 2 16.25 2h-8.5zm0 2h8.5C17.3214 4 18 4.6786 18 5.75v10.5c0 1.0714-.6786 1.75-1.75 1.75h-8.5C6.6786 18 6 17.3214 6 16.25V5.75C6 4.6786 6.6786 4 7.75 4zm4.25 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path></svg>
         Instagram
       </a>
     </nav>
 </header>
 
-<section class="hero" aria-label="Hero Section">
+<section class="hero">
     <h1>Fitness Built For Your Life</h1>
     <p>Train with passion. Live with purpose.</p><br>
     <a href="#gallery" class="btn">See My Journey</a>
@@ -56,20 +57,21 @@
     <h2>The Bel Fit Standard</h2>
     <p>Athleticism meets everyday lifestyle.</p>
     <div class="gallery-grid">
-        <img src="athlete-profile.JPG" alt="Bel Fit Training in Action">
-        <img src="me-training.JPG" alt="Personal Coach Training Session">
+        <img src="athlete-profile.JPG" alt="Bel Fit Training">
+        <img src="me-training.JPG" alt="Coach Bel Fit">
+        <img src="123_1 (12).JPEG" alt="Athleticism">
     </div>
 </section>
 
-<section class="features" aria-label="Features Section">
+<section class="features">
     <div class="card"><h3>1-on-1 Coaching</h3><p>Personalized attention for your specific goals.</p></div>
     <div class="card"><h3>Custom Plans</h3><p>Workouts designed around your busy schedule.</p></div>
 </section>
 
-<section class="contact" id="contact" aria-label="Contact Section">
+<section class="contact" id="contact">
     <h2>Contact Me</h2>
-    <p>Ready to start? Fill out the form below and I'll get back to you.</p>
-    <form>
+    <p>Ready to start? Fill out the form below.</p>
+    <form action="mailto:YOUR-EMAIL@GMAIL.COM" method="post" enctype="text/plain">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Your Goals / Message" rows="4" required></textarea>
@@ -79,9 +81,6 @@
 
 <footer>
     &copy; 2026 Bel Fit | Personal Training. All rights reserved.
-    <div class="footer-social">
-      <a href="https://instagram.com/belfit77" target="_blank" rel="noopener" style="color:#e4405f;text-decoration:none;font-weight:bold;">Instagram: @belfit77</a>
-    </div>
 </footer>
 
 </body>
